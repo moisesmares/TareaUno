@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TareaUno{
 	
 	public static void main(String[] args){
-		String s = "Hola';
+		String s = "Hola";
 		int x = s.length (); // retorna:4
 		String s1 = "Hola";
 		boolean b1 = s1.isEmpty (); // retorna: false
