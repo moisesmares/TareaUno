@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class TareaUno{
 	
 	public static void main(String[] args){
@@ -21,5 +20,15 @@ public class TareaUno{
 		{
 			System.out.println("SI pasa por aquí!");
 		}
+		String s = "Hola, como estas?";
+		int p1 = s.indexOf ('a'); // retorna: 3
+		int p2 = s.lastIndexOf ('a'); //retorna:14
+		String s = "Hola, como estas? Estas como querias?";
+		int p1 = s.indexOf ("como");// retorna: 6
+		int p2 = s.indexOf ("estas");// retorna: 11
+		int p3 = s. lastIndexOf ("como");//retorna:24
+		String s = "Hola, como estas?";
+		String may = s. toUpperCase () ; // retorna: HOLA, COMO ESTAS?
+		String min = s. toLowerCase (); // retorna: hola, como estas?
 	}
 }
