@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class TareaUno{
+	
+	public static void main(String[] args){
+		String s = "Hola';
+		int x = s.length (); // retorna:4
+		String s1 = "Hola";
+		boolean b1 = s1.isEmpty (); // retorna: false
+		String s2 = "";
+		boolean b2 = s2.isEmpty (); //retorna: true
+		String t = "Hola";
+		for (int i=0; i<t. length (); i++)
+		{
+		char c = t.charAt (i) ;
+		System.out.println (c); // SALIDA: H o l a
+		}
+	}
+}
