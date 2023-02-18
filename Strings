@@ -15,5 +15,11 @@ public class TareaUno{
 		char c = t.charAt (i) ;
 		System.out.println (c); // SALIDA: H o l a
 		}
+		String x = "Hola";
+		String y = "Hola";
+		if(x.equals(y) ) //Compara sus contenidos, retorna true
+		{
+			System.out.println("SI pasa por aquí!");
+		}
 	}
 }
