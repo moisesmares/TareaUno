@@ -1,34 +1,67 @@
 import java.util.Scanner;
 public class TareaUno{
-	
-	public static void main(String[] args){
-		String s = "Hola";
-		int x = s.length (); // retorna:4
-		String s1 = "Hola";
-		boolean b1 = s1.isEmpty (); // retorna: false
-		String s2 = "";
-		boolean b2 = s2.isEmpty (); //retorna: true
-		String t = "Hola";
-		for (int i=0; i<t. length (); i++)
-		{
-		char c = t.charAt (i) ;
-		System.out.println (c); // SALIDA: H o l a
-		}
-		String x = "Hola";
-		String y = "Hola";
-		if(x.equals(y) ) //Compara sus contenidos, retorna true
-		{
-			System.out.println("SI pasa por aquí!");
-		}
-		String s = "Hola, como estas?";
-		int p1 = s.indexOf ('a'); // retorna: 3
-		int p2 = s.lastIndexOf ('a'); //retorna:14
-		String s = "Hola, como estas? Estas como querias?";
-		int p1 = s.indexOf ("como");// retorna: 6
-		int p2 = s.indexOf ("estas");// retorna: 11
-		int p3 = s. lastIndexOf ("como");//retorna:24
-		String s = "Hola, como estas?";
-		String may = s. toUpperCase () ; // retorna: HOLA, COMO ESTAS?
-		String min = s. toLowerCase (); // retorna: hola, como estas?
-	}
+
+        public static void main(String[] args){
+                String s = "Hola";
+                int x = s.length (); // retorna:4
+                String s1 = "Hola";
+                boolean b1 = s1.isEmpty (); // retorna: false
+                String s2 = "";
+                boolean b2 = s2.isEmpty (); //retorna: true
+                String s3 = "Hola";
+                for (int i=0; i<s3. length (); i++)
+                {
+                char c = s3.charAt (i) ;
+                System.out.println (c); // SALIDA: H o l a
+                }
+                String z = "Hola";
+                String y = "Hola";
+                if(z.equals(y) ) //Compara sus contemidos, retorna true
+                {
+                        System.out.println("SI pasa por aquí!");
+                }
+                String a = "Hola, como estas?";
+                int a1 = a.indexOf ('a'); // retorna: 3
+                int a2 = a.lastIndexOf ('a'); //retorna:14
+                String e = "Hola, como estas? Estas como querias?";
+                int e1 = e.indexOf ("como");// retorna: 6
+                int e2 = e.indexOf ("estas");// retorna: 11
+                int e3 = e.lastIndexOf ("como");//retorna:24
+                String d = "Hola, como estas?";
+                String may = d.toUpperCase () ; // retorna: HOLA, COMO ESTAS?
+                String min = d.toLowerCase (); // retorna: hola, como estas?
+                String c = "Hola, como estas?";
+                String c1 = s1.substring (0,5) ; // retorna: Hola,
+                String c2 = s2.substring (7,10); // retorna: como
+                String c3 = s3.substring (12,17); //retorna: estas?
+
+                // enteros
+                String l1 = "1234";
+                int i = Integer.parseInt (s1);
+                // retorna: 1234
+                String tI = Integer.toString(i); // retorna: "1234"
+
+                // flotantes
+                String g2 = "1234.56";
+                double m = Double. parseDouble (s2); // retorna: 1234.56
+                String t2 = Double. toString (m) ; // retorna: "1234.56"
+                String g = "Hola, ";
+                String k = "que tal?";
+                String u = s+s3; // retorna: "Hola, que tal?"
+
+                String q = "Hola";
+                q = "chau";
+                System.out.println (q); //SALIDA: chau
+                String o = "Hola";
+                s+=", chau"; // concatenamos?
+                System.out.println (s) ; // SALIDA:Hola, chau
+                StringBuilder sb = new StringBuilder ();
+                sb.append ("Hola,");
+                sb.append ("Chau");
+                System.out.println (sb); // SALIDA:Hola, chau
+                StringBuilder qo = new StringBuilder ("Hola");
+                qo.setCharAt (2, 'X') ;
+                System.out.println (qo);//SALIDA: HoXa
+        }
 }
+
